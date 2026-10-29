@@ -1,0 +1,6 @@
+node_modules
+.next
+next-env.d.ts
+# NOTE: .env.local is intentionally COMMITTED in this repro so the bug is
+# reproducible after a fresh clone. It contains a fake, non-sensitive value.
+!.env.local
